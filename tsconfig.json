@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./cypress",
+    "sourceMap": false,
+    "outDir": "../../dist/out-tsc",
+    "allowJs": true,
+    "types": ["cypress", "node"],
+    "target": "ES5",
+    "lib": ["es5", "dom"]
+  },
+  "include": ["cypress/**/*.ts", "cypress/**/*.js", "cypress.config.ts"]
+}
